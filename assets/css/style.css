@@ -531,6 +531,27 @@ hr {
   }
 }
 
+/* Make all logos same size */
+.swiper-wrapper img {
+  max-height: 250px;
+  max-width: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Ensure even spacing between slides */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px; /* adjust spacing */
+}
+
+
+
 /* Swiper Pagination Style */
 .pagination-style-one .swiper-pagination-bullet {
   height: 12px;

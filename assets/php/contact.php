@@ -24,10 +24,10 @@ header("Access-Control-Allow-Origin: *");
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "yourmail@gmail.com";
+        $recipient = "info@mbgnetwork.com";
 
         // Set the email subject.
-        $subject = "Avers - Mail From $first_name";
+        $subject = "MBG Website - Mail From $first_name";
 
         // Build the email content.
         $email_content = "Name: $first_name\n";
