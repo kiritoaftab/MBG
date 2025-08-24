@@ -28,6 +28,8 @@
 
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css" />
 </head>
 
 <body>
@@ -70,20 +72,50 @@
                             <!-- Header Menu End -->
 
                             <!-- Header Actions Start -->
-                            <div class="header-right_actions flex-center">
+                                                        <div class="header-right_actions flex-center">
                                 <div class="header-right_button header-button">
-                                    <a href="contact.html" class="btn-style-one"><span>Get Started</span></a>
-                                </div>
-
-                                <div class="hamburger d-block d-lg-none">
+                                    <a href="#" class="btn-style-one"><span>Login</span></a>
+                                    <div class="header-language dropdown ms-3">
+                                        <button
+                                            class="btn btn-outline-secondary dropdown-toggle d-flex align-items-center gap-2"
+                                            type="button" id="languageDropdown" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <span class="fi fi-gb"></span> English
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                                    <span class="fi fi-es"></span> Spanish
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                                    <span class="fi fi-co"></span> Colombian
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                                    <span class="fi fi-pt"></span> Portuguese
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="hamburger d-block d-lg-none">
                                     <!-- Mobile Menu Hambarger Action Button Start -->
-                                    <a class="header-action-btn header-action-btn-menu hamburger_button d-flex" href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
+                                    <a class="header-action-btn header-action-btn-menu hamburger_button d-flex"
+                                        href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
                                         <span></span>
                                         <span></span>
                                         <span></span>
                                     </a>
                                     <!-- Mobile Menu Hambarger Action Button End -->
                                 </div>
+                                </div>
+
+                                <!-- Language Toggle Dropdown Start -->
+
+                                <!-- Language Toggle Dropdown End -->
+
 
                             </div>
                             <!-- Header Social Actions End -->

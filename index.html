@@ -34,6 +34,8 @@
     <link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
     <script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icons/css/flag-icons.min.css" />
+
 </head>
 
 <body>
@@ -163,9 +165,32 @@
                             <div class="header-right_actions flex-center">
                                 <div class="header-right_button header-button">
                                     <a href="#" class="btn-style-one"><span>Login</span></a>
-                                </div>
-
-                                <div class="hamburger d-block d-lg-none">
+                                    <div class="header-language dropdown ms-3">
+                                        <button
+                                            class="btn btn-outline-secondary dropdown-toggle d-flex align-items-center gap-2"
+                                            type="button" id="languageDropdown" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <span class="fi fi-gb"></span> English
+                                        </button>
+                                        <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                                    <span class="fi fi-es"></span> Spanish
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                                    <span class="fi fi-co"></span> Colombian
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="dropdown-item d-flex align-items-center gap-2" href="#">
+                                                    <span class="fi fi-pt"></span> Portuguese
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="hamburger d-block d-lg-none">
                                     <!-- Mobile Menu Hambarger Action Button Start -->
                                     <a class="header-action-btn header-action-btn-menu hamburger_button d-flex"
                                         href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
@@ -175,8 +200,15 @@
                                     </a>
                                     <!-- Mobile Menu Hambarger Action Button End -->
                                 </div>
+                                </div>
+
+                                <!-- Language Toggle Dropdown Start -->
+
+                                <!-- Language Toggle Dropdown End -->
+
 
                             </div>
+                            <!-- Header Actions End -->
                             <!-- Header Social Actions End -->
                         </div>
                     </div>
@@ -1094,7 +1126,8 @@
                                     </div>
                                     <div class="details">
                                         <h5 class="details-title">Email Us</h5>
-                                        <a href="mailto:info@mbgnetwork.com" class="details-text">info@mbgnetwork.com</a>
+                                        <a href="mailto:info@mbgnetwork.com"
+                                            class="details-text">info@mbgnetwork.com</a>
                                     </div>
                                 </li>
                             </ul>
