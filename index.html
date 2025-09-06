@@ -191,15 +191,15 @@
                                         </ul>
                                     </div>
                                     <div class="hamburger d-block d-lg-none">
-                                    <!-- Mobile Menu Hambarger Action Button Start -->
-                                    <a class="header-action-btn header-action-btn-menu hamburger_button d-flex"
-                                        href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
-                                        <span></span>
-                                        <span></span>
-                                        <span></span>
-                                    </a>
-                                    <!-- Mobile Menu Hambarger Action Button End -->
-                                </div>
+                                        <!-- Mobile Menu Hambarger Action Button Start -->
+                                        <a class="header-action-btn header-action-btn-menu hamburger_button d-flex"
+                                            href="#/" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-header">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </a>
+                                        <!-- Mobile Menu Hambarger Action Button End -->
+                                    </div>
                                 </div>
 
                                 <!-- Language Toggle Dropdown Start -->
@@ -1068,7 +1068,7 @@
                     <div class="brand-slider brand-style swiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <a href="#"><img src="assets/images/brand/coca-cola.png" alt="Brand-Image"></a>
+                                <a href="#"><img src="assets/images/brand/coca.jpeg" alt="Brand-Image"></a>
                             </div>
                             <div class="swiper-slide">
                                 <a href="#"><img src="assets/images/brand/njcc.png" alt="Brand-Image"></a>
@@ -1081,6 +1081,36 @@
                             </div>
                             <div class="swiper-slide">
                                 <a href="#"><img src="assets/images/brand/NYNJMSDC.png" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand2.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand3.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand4.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand5.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand6.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand7.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand8.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand9.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand10.jpeg" alt="Brand-Image"></a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#"><img src="assets/images/brand/brand11.jpeg" alt="Brand-Image"></a>
                             </div>
                         </div>
 
@@ -1494,6 +1524,20 @@
     <!-- Activation JS -->
     <script src="./assets/js/main.js"></script>
     <script src="./assets/js/pages/home.js"></script>
+    <script>
+  const swiper = new Swiper('.brand-slider', {
+    loop: true,                   // infinite loop
+    slidesPerView: 'auto',        // shows as many logos as fit
+    spaceBetween: 30,             // spacing between logos
+    speed: 2000,                  // speed of transition (higher = slower movement)
+    freeMode: true,               // continuous free scroll
+    autoplay: {
+      delay: 0,                   // no delay between transitions
+      disableOnInteraction: false // keep running after user interaction
+    },
+    freeModeMomentum: false,      // prevents it from snapping back
+  });
+</script>
 
 </body>
 
